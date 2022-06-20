@@ -1,0 +1,116 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+
+body{
+    background-color: black;
+}
+
+
+ul{
+    list-style:none;
+}
+
+.active{
+    color:aliceblue;
+}
+
+/*  NAV BAR */
+
+.navbar{
+    position:absolute;
+    top:0;
+    left:0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    color: whitesmoke;
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+}
+
+.nav-links li{
+    margin:0 30px;
+}
+
+
+/* end navbar*/
+
+header{
+    width: 100vw;
+    height: 80vh;
+    background-image: url('../img/bg-cart.png');
+    background-position: bottom;
+    background-size: cover;
+    background-attachment:  fixed;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.header-content{
+    margin-bottom: 300px;
+    color: white;
+    text-align: center;
+}
+
+.header-content h2{
+font-size: 4vmin;
+margin-bottom: 40px;
+}
+
+.span-text-header{
+    color: rgba(54, 201, 169, 1);
+}
+
+
+.logo{
+    top:30px;
+}
+
+.menu-btn{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 30px;
+    cursor: pointer;
+    display: none;
+
+}
+.icons{
+    position:fixed;
+    top: 35px;
+    right: 45px;
+    
+}
+
+.spread{
+    transform: translate(0); 
+}
+
+.titulo{
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+
+.span-text-header{
+    color:aqua;
+}
+
+.copy{
+    font-weight: 300;
+    font-size: 25px;
+    
+}

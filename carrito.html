@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <title>Techno Gift</title>
+    <link rel="stylesheet" href="CSS/carrito.css">
+    <link rel="stylesheet" href="CSS/modal.css">
+    <link rel="stylesheet" href="CSS/media-queries.css">
+
+    <link rel="stylesheet" href="https://use.typekit.net/wtr2apa.css">
+
+
+<link href="https://fonts.googleapis.com/css2?family=Akshar:wght@300;400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link href="https://unpkg.com/boxicons@2.0.5/css/boxicons.min.css" rel="stylesheet">
+</head>
+<body>
+
+          <!--Navbar-->
+ <nav class="navbar">
+    <img src="img/logo.png" class="logo"></h1>
+    <ul class="nav-links">
+        <li class="active"><a href="#"></a>Home</li>
+        <li><a href="#title"></a>About</li>
+        <li><a href="#"></a>Services</li>
+        <li><a href="#"></a>Contac us</li>
+
+    </ul>
+
+    <img  src="img/hamburguer.png"  alt="" class="menu-btn">
+</nav>
+
+<header>
+    <div class="header-content">
+        <h2>WELCOME TO <span class="span-text-header">WEBMARK SOLUTIONS</span> </h2>
+     
+        <button href="#" onclick="window.location.href='#about'" id="ctn" class="ctn"><span class="span-button"></span>About us</a>
+        <button href="#" onclick="window.location.href='#services'" id="ctn1" class="ctn"><span class="span-button2"></span>Our services</a>
+
+    </div>
+
+     
+  
+    
+    
+    
+    
+        </header>
+    
+    
+</body>
+
+<script>
+    const menuBtn=document.querySelector('.menu-btn')
+    const navlinks= document.querySelector('.nav-links')
+    menuBtn.addEventListener('click',()=>{
+       navlinks.classList.toggle('mobile-menu')
+    })
+</script>
+</html>
